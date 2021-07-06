@@ -1,0 +1,50 @@
+
+
+.game {
+    background: #000;
+    color: #333
+}
+.game {
+    left: 50%;
+    height: 50%;
+    min-height: 200px;
+    border-top: solid 5px #00f;
+    border-bottom: solid 5px #00f;
+    padding: 30px 0;
+    overflow: hidden
+}
+
+
+.dot,
+.social-links {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    background-color: #FFF;
+    border-radius: 30%;
+    right: -30px;
+    animation: dot 8s infinite linear
+}
+
+@keyframes dot {
+    0% {
+        right: 0
+    }
+    90% {
+        opacity: 1
+    }
+    95% {
+        opacity: 0
+    }
+    100% {
+        right: 100%;
+        opacity: 0
+    }
+}
+
+

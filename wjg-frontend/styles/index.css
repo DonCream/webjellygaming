@@ -1,0 +1,10 @@
+/* ./styles/globals.scss */
+@font-face {
+  font-family: pinchmyride;
+  src: url(/styles/fonts/pinchmyride.ttf);
+}
+
+.gta {
+  font-family: pinchmyride;
+
+}
