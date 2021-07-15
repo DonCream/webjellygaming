@@ -1,8 +1,8 @@
 export default function Chat() {
   return(
-    <div>
+    <div className="gradient_border">
       <iframe src="https://www.twitch.tv/embed/<channel>/chat?parent=<parent>"
-        height="500"
+        height="400"
         width="300">
       </iframe>
     </div>

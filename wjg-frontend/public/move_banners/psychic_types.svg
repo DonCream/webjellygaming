@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="psychic_types.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.3431542"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showborder="false"
+     inkscape:lockguides="true"
+     inkscape:object-nodes="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="983"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid833" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g913"
+       style="stroke:#ff6675;stroke-opacity:1">
+      <rect
+         style="fill:#000000;fill-rule:evenodd;stroke:#ff6675;stroke-width:10.9224;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect835"
+         width="719.66669"
+         height="116.41666"
+         x="-211.66667"
+         y="-10.583333"
+         ry="58.208328" />
+      <circle
+         style="fill:#000000;fill-rule:evenodd;stroke:#ff6675;stroke-width:10;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path841"
+         cx="-238.9413"
+         cy="48.518757"
+         r="97.372009" />
+    </g>
+    <g
+       id="g2198"
+       transform="matrix(0.68015748,0,0,0.68015748,-325.03594,-38.450888)">
+      <circle
+         class="st0"
+         cx="127.6"
+         cy="127.6"
+         r="121.6"
+         id="circle2184" />
+      <path
+         class="st1"
+         d="m 188.506,183.457 c -0.727,1.076 -1.859,1.684 -2.877,2.4 -10.549,7.418 -22.267,11.923 -34.952,14.071 -6.829,1.157 -13.699,1.531 -20.593,1.192 C 114.165,200.339 99.249,196.279 85.972,187.138 71.068,176.877 61.755,162.83 57.701,145.237 56.024,137.961 55.477,130.58 55.959,123.155 56.796,110.239 60.074,97.988 67.092,87.004 76.171,72.795 88.901,63.198 104.939,57.99 c 9.179,-2.98 18.593,-4.398 28.234,-3.948 14.763,0.689 28.177,5.245 39.857,14.456 9.174,7.236 15.361,16.604 19.011,27.618 5.384,16.249 4.381,32.077 -3.484,47.405 -2.592,5.052 -6.368,9.078 -10.489,12.833 -7.556,6.884 -16.239,11.723 -26.361,13.496 -14.86,2.603 -28.301,-0.558 -39.668,-10.819 -7.212,-6.509 -11.29,-14.728 -12.569,-24.361 -0.814,-6.126 -0.452,-12.182 1.607,-17.988 4.249,-11.981 12.94,-19.09 25.219,-21.699 7.63,-1.621 15.072,-0.749 21.835,3.493 7.19,4.509 11.145,11.231 12.273,19.47 1.388,10.141 -6.052,20.132 -16.24,22.38 -3.012,0.664 -6.011,0.724 -9.026,-0.001 -5.81,-1.397 -10.526,-6.446 -11.446,-12.304 -0.352,-2.243 0.021,-4.44 0.566,-6.596 0.347,-1.373 1.307,-1.909 2.469,-1.63 1.113,0.268 1.792,1.239 1.59,2.543 -0.161,1.036 -0.261,2.061 -0.135,3.094 0.695,5.675 5.557,9.085 11.423,8.025 0.146,-0.026 0.288,-0.07 0.433,-0.1 10.215,-2.141 11.215,-12.692 7.645,-18.714 -2.537,-4.279 -6.435,-6.668 -11.226,-7.64 -9.717,-1.971 -17.792,4.111 -20.814,11.214 -3.794,8.917 -2.271,17.167 3.999,24.433 8.581,9.943 23.247,12.338 34.855,5.796 9.875,-5.565 15.873,-13.986 17.335,-25.222 1.457,-11.196 -1.442,-21.152 -9.091,-29.809 -6.877,-7.783 -15.413,-12.21 -25.427,-13.809 -24.786,-3.958 -45.598,8.782 -54.523,30.612 -3.686,9.016 -4.806,18.43 -3.754,28.12 1.606,14.794 7.652,27.452 18.354,37.777 9.417,9.086 20.639,14.843 33.534,17.173 19.404,3.507 37.707,0.041 55.104,-8.932 0.776,-0.4 1.48,-1.024 2.449,-0.928 z"
+         id="path2186" />
+    </g>
+  </g>
+  <style
+     type="text/css"
+     id="style893">
+	.st0{fill:#38BF4B;}
+	.st1{fill:#FEFEFE;}
+</style>
+  <style
+     type="text/css"
+     id="style970">
+	.st0{fill:#83C300;}
+	.st1{fill:#FEFEFE;}
+</style>
+  <style
+     type="text/css"
+     id="style1065">
+	.st0{fill:#5B5466;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+  <style
+     type="text/css"
+     id="style1155">
+	.st0{fill:#006FC9;}
+	.st1{fill:#FEFEFE;}
+</style>
+  <style
+     type="text/css"
+     id="style1277">
+	.st0{fill:#FBD100;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+  <style
+     type="text/css"
+     id="style1363">
+	.st0{fill:#FB89EB;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+  <style
+     type="text/css"
+     id="style1453">
+	.st0{fill:#E0306A;}
+	.st1{fill:#FEFEFE;}
+</style>
+  <style
+     type="text/css"
+     id="style1545">
+	.st0{fill:#FF9741;}
+	.st1{fill:#FEFEFE;}
+</style>
+  <style
+     type="text/css"
+     id="style1631">
+	.st0{fill:#89AAE3;}
+	.st1{fill:#FEFEFE;}
+</style>
+  <style
+     type="text/css"
+     id="style1717">
+	.st0{fill:#4C6AB2;}
+	.st1{fill:#FEFEFE;}
+</style>
+  <style
+     type="text/css"
+     id="style1803">
+	.st0{fill:#E87236;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+  <style
+     type="text/css"
+     id="style1903">
+	.st0{fill:#4CD1C0;}
+	.st1{fill:#FFFFFF;}
+</style>
+  <style
+     type="text/css"
+     id="style2010">
+	.st0{fill:#919AA2;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+</style>
+  <style
+     type="text/css"
+     id="style2096">
+	.st0{fill:#B567CE;}
+	.st1{fill:#FEFEFE;}
+</style>
+  <style
+     type="text/css"
+     id="style2182">
+	.st0{fill:#FF6675;}
+	.st1{fill:#FEFEFE;}
+</style>
+</svg>
