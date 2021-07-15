@@ -1,8 +1,8 @@
 export default function GameCam() {
   return(
     <div>
-      <div className="gradient_border border">
-        <iframe src="https://vdo.ninja/?view=8DWG6qf" title="gamecam" frameborder="0"></iframe>
+      <div className="gradient_border">
+        <iframe src="https://vdo.ninja/?view=8DWG6qf" title="gamecam" width="300" height="250"></iframe>
       </div>
     </div>
   )
