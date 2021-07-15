@@ -8,10 +8,12 @@ export default function Pogo () {
   return(
     <div className="image">
       <IndexNavbar/>
-      <div className="flex flex-row justify-between justify-items-center">
-      <PogoTeam />
-      <GameCard />
-      <GameCam />
+      <div className="grid grid-row-3" >
+        <div className="flex flex-row justify-evenly justify-items-center">
+          <PogoTeam />
+          <GameCard />
+          <GameCam />
+        </div>
       </div>
       <Footer />
     </div>

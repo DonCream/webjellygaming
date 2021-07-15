@@ -1,0 +1,13 @@
+import pokemon from '../gamemaster.json';
+
+export default function Pokes() {
+  return(
+    <div>
+      {pokemon.map(pokemon => (
+        <div key={pokemon.speciesId}>
+          <div>{pokemon.fastMoves}{pokemon.chargedMoves}</div>
+        </div>
+      ))}
+    </div>
+  )
+}

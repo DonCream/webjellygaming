@@ -3,18 +3,29 @@ import React from "react";
 import Link from "next/link";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
-import GameCard from "components/Cards/GameCard";
+import pokemon from '../gamemaster.json';
 
 export default function Index() {
   return (
     <>
       <IndexNavbar />
+<div>
+  const [data] = useState([]);
+  
+      {pokemon.map(data => (
+        <div key={pokemon.speciesId}>
+          <div>{pokemon.speciesName}</div>
+          <div>{pokemon.fastMoves}</div>
+          <div>{pokemon.chargedMoves}</div>
+        </div>
+      ))}
+</div>
       <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
               <h2 className="gta  text-4xl text-blueGray-600">
-                 HomePage for the WebJelly Gaming Fam.
+                HomePage for the WebJelly Gaming Fam.
               </h2>
               <p className="gta">
                 Catch Us on Twitch, 
@@ -476,7 +487,7 @@ export default function Index() {
                 className="max-w-full rounded-lg shadow-xl"
                 style={{
                   transform:
-                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                  "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
                 src="/img/documentation.png"
               />
