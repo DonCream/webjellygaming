@@ -3,6 +3,8 @@ import GameCard from "components/Cards/GameCard"
 import PogoTeam from "components/Cards/PogoTeam"
 import GameCam from "components/Cards/GameCam"
 import Footer from "components/Footers/Footer"
+import League from "components/League"
+import Chat from "components/Chat"
 
 export default function Pogo () {
   return(
@@ -12,7 +14,11 @@ export default function Pogo () {
         <div className="flex flex-row justify-evenly justify-items-center">
           <PogoTeam />
           <GameCard />
-          <GameCam />
+          <div>
+            <GameCam />
+            <League />
+            <Chat /> 
+          </div>
         </div>
       </div>
       <Footer />
