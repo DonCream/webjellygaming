@@ -24,9 +24,7 @@
   width: 100%;
   height: 100%;
   clip-path: polygon(100% 74%, 44% 48%, 100% 21%);
-  animation-name: eat;
-  animation-duration: 0.7s;
-  animation-iteration-count: infinite;
+  animation: eat 0.7s infinite;
 }
 
 @keyframes eat {
@@ -51,26 +49,24 @@
   width: 30px;
   height: 30px;
   background-color: #FFF;
-  border-radius: 30%;
+  border-radius: 60%;
   animation: dot 8s infinite linear;
-  right: -2235px;
   color: #333;
+  position: absolute;
+  top: 102%;
+  overflow: hidden;
 }
 .dot:nth-child(2) {
   animation-delay: 1s;
-  animation-delay: 1s
 }
 .dot:nth-child(3) {
   animation-delay: 2s;
-  animation-delay: 2s
 }
 .dot:nth-child(4) {
   animation-delay: 3s;
-  animation-delay: 3s
 }
 .dot:nth-child(5) {
-  -webkit-animation-delay: 4s;
-  animation-delay: 4s
+  animation-delay: 4s;
 }
 
 @keyframes dot {
@@ -84,32 +80,8 @@
     opacity: 0
   }
   100% {
-    right: 50%;
+    right: 68%;
     opacity: 0
   }
 }
-
-.dot,
-.social-links {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%)
-}
-
-@keyframes dot {
-  0% {
-    right: 0
-  }
-  90% {
-    opacity: 1
-  }
-  95% {
-    opacity: 0
-  }
-  100% {
-    right: 100%;
-    opacity: 0
-  }
-}
-
 
