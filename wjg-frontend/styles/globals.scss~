@@ -2,6 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 // Pogo page card borders
 .gradient_border {
   --borderWidth: 3px;
@@ -22,6 +23,7 @@
   animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;
 }
+
 // Pacman animation
 .pacman {
   width: 100px;
@@ -70,39 +72,58 @@
   }
 }
 
+// Pellets animation
+.dot {
+  width: 30px;
+  height: 30px;
+  background-color: #FFF;
+  border-radius: 60%;
+  animation: dot 8s infinite linear;
+  position: absolute;
+  top: 102%;
+  overflow: hidden;
+}
+.dot:nth-child(2) {
+  animation-delay: 1s;
+}
+.dot:nth-child(3) {
+  animation-delay: 2s;
+}
+.dot:nth-child(4) {
+  animation-delay: 3s;
+}
+.dot:nth-child(5) {
+  animation-delay: 4s;
+}
 
+@keyframes dot {
+  0% {
+    right: 0
+  }
+  90% {
+    opacity: 1
+  }
+  95% {
+    opacity: 0
+  }
+  100% {
+    right: 68%;
+    opacity: 0
+  }
+}
+// Custom webfont family
+@font-face {
+  font-family: "pincoyablack";
+  src: url("/fonts/pincoyablack.woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// /* ./styles/globals.scss */
-// @font-face {
-//     font-family: 'pincoyablack';
-//     src: url('/styles/fonts/pincoyablack-webfont.woff2') format('woff2'),
-//          url('/styles/fonts/pincoyablack-webfont.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-
-// }
-
-// .gta {
-//   font-family: 'pincoyablack';
-// }
+.gta {
+   font-family: 'pincoyablack';
+   font-size: 50px;
+ }
 
 // h2 {
 //   font-family: 'pincoyablack';
