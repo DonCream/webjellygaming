@@ -124,12 +124,13 @@
    font-family: 'pincoyablack';
    font-size: 50px;
    color: white;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;
  }
 
 .child {
   /* ... */
   position: absolute;
-  top: -21px;
 }
 
 .parent {

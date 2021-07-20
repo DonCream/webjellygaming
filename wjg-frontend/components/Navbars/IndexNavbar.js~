@@ -9,15 +9,15 @@ export default function Navbar(props) {
   return (
     <>
       <nav className="flex flex-wrap items-center justify-between py-3 bg-black shadow">
-        <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <div className="container mx-auto flex flex-wrap items-center justify-between">
+          <div className="flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
               <a
-                className="gta text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
+                className="gta text-blueGray-700 text-sm font-bold leading-relaxed inline-block whitespace-nowrap "
                 href="#pablo"
               >
-                <p className="child">WebJelly</p>
-                  <p className="parent z-30">Gaming</p>
+                <p className="child z-10">WebJelly</p>
+                  <p className="parent px-12 py-5">GAmIng</p>
               </a>
             </Link>
             <button
