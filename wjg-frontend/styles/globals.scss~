@@ -80,7 +80,7 @@
   border-radius: 60%;
   animation: dot 8s infinite linear;
   position: absolute;
-  top: 102%;
+  top: 108%;
   overflow: hidden;
 }
 .dot:nth-child(2) {
@@ -123,8 +123,15 @@
 .gta {
    font-family: 'pincoyablack';
    font-size: 50px;
+   color: white;
  }
 
-// h2 {
-//   font-family: 'pincoyablack';
-// }
+.child {
+  /* ... */
+  position: absolute;
+  top: -21px;
+}
+
+.parent {
+  position: relative;
+}

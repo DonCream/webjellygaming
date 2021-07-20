@@ -8,7 +8,7 @@ export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="flex flex-wrap items-center justify-between px-2 py-3 mb-3 bg-black shadow">
+      <nav className="flex flex-wrap items-center justify-between py-3 bg-black shadow">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
@@ -16,7 +16,8 @@ export default function Navbar(props) {
                 className="gta text-blueGray-700 text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
                 href="#pablo"
               >
-                WebJelly Gaming
+                <p className="child z-10">WebJelly</p>
+                  <p className="parent ">Gaming</p>
               </a>
             </Link>
             <button
