@@ -8,16 +8,16 @@ export default function Navbar(props) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
-      <nav className="flex flex-wrap items-center justify-between py-3 bg-black shadow">
-        <div className="container mx-auto flex flex-wrap items-center justify-between">
-          <div className="flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+      <nav className="flex flex-wrap items-center justify-between py-3 bg-black">
+        <div className="container mx-auto grid grid-row">
+          <div className="flex justify-between">
             <Link href="/">
               <a
-                className="gta text-blueGray-700 text-sm font-bold leading-relaxed inline-block whitespace-nowrap "
+                className="gta text-blueGray-700 text-sm font-bold inline-block whitespace-nowrap "
                 href="#pablo"
               >
                 <p className="child z-10">WebJelly</p>
-                  <p className="parent px-12 py-5">GAmIng</p>
+                  <p className="parent  pt-12 pl-14">GAmIng</p>
               </a>
             </Link>
             <button
