@@ -131,7 +131,7 @@
 .child {
   /* ... */
   position: absolute;
-  top: 16px;
+  top: 20px;
 }
 
 .parent {

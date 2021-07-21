@@ -18,7 +18,7 @@ export default function Index() {
         />
       </Head>
       <IndexNavbar fixed />
-      <section className="header relative pt-16 items-center flex h-screen max-h-860-px">
+      <section className="header hero relative pt-16 items-center flex h-screen max-h-860-px">
         <div className="container mx-auto items-center flex flex-wrap">
           <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0">
@@ -60,7 +60,7 @@ export default function Index() {
         </div>
         <img
           className="absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px"
-          src="/img/pattern_nextjs.png"
+          src="/img/me2toon.png"
           alt="..."
         />
       </section>
@@ -493,7 +493,7 @@ export default function Index() {
                 className="max-w-full rounded-lg shadow-xl"
                 style={{
                   transform:
-                  "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
                 src="/img/documentation.png"
               />
@@ -670,10 +670,7 @@ export default function Index() {
           </div>
         </div>
       </section>
-      <div>
-        <Footer />
-      </div>
-
+      <Footer />
     </>
   );
 }
