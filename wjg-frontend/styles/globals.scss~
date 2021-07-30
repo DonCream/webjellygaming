@@ -137,3 +137,15 @@
 .parent {
   position: relative;
 }
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/city3.jpg);
+  height: 250px;
+}
+
+
+
+
+
+
+
